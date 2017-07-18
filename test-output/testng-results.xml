@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="12948" started-at="2017-07-18T13:06:43Z" finished-at="2017-07-18T13:06:56Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="12940" started-at="2017-07-18T13:06:43Z" finished-at="2017-07-18T13:06:56Z">
+      <class name="tests.TC1_Google_Searchname">
+        <test-method status="PASS" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_Google_Searchname@545997b1]" name="remotewebdriver" is-config="true" duration-ms="0" started-at="2017-07-18T18:36:43Z" finished-at="2017-07-18T18:36:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://20.201.84.130:7777/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remotewebdriver -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC1_Google_Searchname@545997b1]" name="startTestCase" is-config="true" duration-ms="0" started-at="2017-07-18T18:36:43Z" finished-at="2017-07-18T18:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="namesearch(java.lang.String)[pri:0, instance:tests.TC1_Google_Searchname@545997b1]" name="namesearch" duration-ms="12413" started-at="2017-07-18T18:36:44Z" data-provider="getData" finished-at="2017-07-18T18:36:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sri]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- namesearch -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:tests.TC1_Google_Searchname@545997b1]" name="clearCookies" is-config="true" duration-ms="25" started-at="2017-07-18T18:36:56Z" finished-at="2017-07-18T18:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+      </class> <!-- tests.TC1_Google_Searchname -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="12948" started-at="2017-07-18T13:06:43Z" finished-at="2017-07-18T13:06:56Z">
+      <class name="tests.TC1_Google_Searchname">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:tests.TC1_Google_Searchname@5123a213]" name="instantiateDriverObject" is-config="true" duration-ms="0" started-at="2017-07-18T18:36:43Z" finished-at="2017-07-18T18:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateDriverObject -->
+        <test-method status="PASS" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_Google_Searchname@5123a213]" name="remotewebdriver" is-config="true" duration-ms="0" started-at="2017-07-18T18:36:43Z" finished-at="2017-07-18T18:36:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remotewebdriver -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC1_Google_Searchname@5123a213]" name="startTestCase" is-config="true" duration-ms="0" started-at="2017-07-18T18:36:43Z" finished-at="2017-07-18T18:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="namesearch(java.lang.String)[pri:0, instance:tests.TC1_Google_Searchname@5123a213]" name="namesearch" duration-ms="12420" started-at="2017-07-18T18:36:44Z" data-provider="getData" finished-at="2017-07-18T18:36:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sri]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- namesearch -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:tests.TC1_Google_Searchname@5123a213]" name="clearCookies" is-config="true" duration-ms="27" started-at="2017-07-18T18:36:56Z" finished-at="2017-07-18T18:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCookies -->
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:tests.TC1_Google_Searchname@5123a213]" name="closeDriverObjects" is-config="true" duration-ms="1665" started-at="2017-07-18T18:36:56Z" finished-at="2017-07-18T18:36:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriverObjects -->
+      </class> <!-- tests.TC1_Google_Searchname -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
