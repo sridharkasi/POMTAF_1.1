@@ -1,5 +1,7 @@
 package pages;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -21,12 +23,13 @@ public class GooglePage extends WrapperMethods{
 		
 	}
 	
-	public GooglePage EnterSearch(String searchvalue) throws InterruptedException
+	public GooglePage EnterSearch(String searchvalue) throws IOException, Exception
 	{
-		enterbyname(searchtext,searchvalue);	
+		entertext(searchtext,  searchvalue);
 		return this;
 		
 	}
+	
 	
 	public GooglePage clicksearch() throws Exception
 	{

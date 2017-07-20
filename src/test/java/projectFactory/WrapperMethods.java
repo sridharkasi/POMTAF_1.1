@@ -17,6 +17,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class WrapperMethods {
 	
@@ -26,18 +27,58 @@ public class WrapperMethods {
 	public static String testCaseName;
 	
     
-	public void enterbyname(WebElement searchtext, String Serachvalue){
-		searchtext.sendKeys(Serachvalue);
+	public void entertext(WebElement Elm, String Serachvalue) throws IOException, Exception{
+		try{
+			Elm.sendKeys(Serachvalue);
+			
+			DriverFactory.test.pass("Test PasseD");
+		}
+		catch (Exception e)
+		{
+			filepath = Screencapture(DriverFactory.getDriver());
+			
+			DriverFactory.test.fail(e + " "+ DriverFactory.test.addScreenCaptureFromPath(filepath));
+		}
 		
-		DriverFactory.test.pass("Test PasseD");
 	}
 	
-	public void submit(WebElement object) throws Exception{
-		object.submit();
-		filepath = Screencapture(DriverFactory.getDriver());
-		DriverFactory.test.pass("Test Passed Screeencapture");
-		DriverFactory.test.pass(filepath);
-		DriverFactory.test.addScreenCaptureFromPath(filepath);
+	public void submit(WebElement Elm) throws Exception{
+		try{
+			Elm.submit();
+			DriverFactory.test.pass("Text Submitted");
+		}
+		catch (Exception e)
+		{
+			filepath = Screencapture(DriverFactory.getDriver());
+			
+			DriverFactory.test.fail(e + " "+ DriverFactory.test.addScreenCaptureFromPath(filepath));
+			}
+	}
+		
+	public void click(WebElement Elm) throws IOException, Exception {
+		try{
+		Elm.click();
+		DriverFactory.test.pass("Element Clicked");
+		
+		} catch (Exception e) {
+			filepath = Screencapture(DriverFactory.getDriver());
+			DriverFactory.test.fail(e + " "+ DriverFactory.test.addScreenCaptureFromPath(filepath));
+		}
+		
+	}
+	
+	public void selectvalue(WebElement Elm, String value) throws IOException, Exception {
+		
+		try{
+			new Select(Elm).selectByVisibleText(value);;
+			DriverFactory.test.pass("Element Selected");
+			DriverFactory.test.pass("Element Selected");
+		}
+		catch (Exception e) {
+			filepath = Screencapture(DriverFactory.getDriver());
+			DriverFactory.test.fail(e + " "+ DriverFactory.test.addScreenCaptureFromPath(filepath));
+		}
+		
 	}
 	
 	
