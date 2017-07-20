@@ -15,6 +15,13 @@
       <class name="tests.TC1_Google_Searchname"/>
     </classes>
   </test> <!-- Test -->
+   <test name="Test3">
+ <parameter name="browser" value =""> </parameter> 
+<parameter name="Node" value =""> </parameter> 
+   <classes>
+      <class name="tests.TransAmerica"/>
+    </classes>
+  </test> <!-- Test -->
   
  
 </suite> <!-- Suite -->
