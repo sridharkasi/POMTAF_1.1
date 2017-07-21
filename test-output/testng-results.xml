@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="79980" started-at="2017-07-21T07:45:56Z" finished-at="2017-07-21T07:47:16Z">
+  <suite name="Suite" duration-ms="99149" started-at="2017-07-21T10:09:35Z" finished-at="2017-07-21T10:11:14Z">
     <groups>
     </groups>
-    <test name="Test4" duration-ms="79980" started-at="2017-07-21T07:45:56Z" finished-at="2017-07-21T07:47:16Z">
+    <test name="Test4" duration-ms="99149" started-at="2017-07-21T10:09:35Z" finished-at="2017-07-21T10:11:14Z">
       <class name="tests.TC1_GR_FB_Account">
-        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="instantiateDriverObject" is-config="true" duration-ms="1" started-at="2017-07-21T13:15:56Z" finished-at="2017-07-21T13:15:56Z">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="instantiateDriverObject" is-config="true" duration-ms="0" started-at="2017-07-21T15:39:35Z" finished-at="2017-07-21T15:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiateDriverObject -->
-        <test-method status="PASS" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="remotewebdriver" is-config="true" duration-ms="15" started-at="2017-07-21T13:15:56Z" finished-at="2017-07-21T13:15:56Z">
+        <test-method status="PASS" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="remotewebdriver" is-config="true" duration-ms="0" started-at="2017-07-21T15:39:35Z" finished-at="2017-07-21T15:39:35Z">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- remotewebdriver -->
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="startTestCase" is-config="true" duration-ms="0" started-at="2017-07-21T13:15:56Z" finished-at="2017-07-21T13:15:56Z">
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="startTestCase" is-config="true" duration-ms="0" started-at="2017-07-21T15:39:35Z" finished-at="2017-07-21T15:39:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method status="PASS" signature="FB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="FB" duration-ms="78272" started-at="2017-07-21T13:15:57Z" data-provider="getData" finished-at="2017-07-21T13:17:15Z">
+        <test-method status="PASS" signature="FB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="FB" duration-ms="97385" started-at="2017-07-21T15:39:36Z" data-provider="getData" finished-at="2017-07-21T15:41:13Z">
           <params>
             <param index="0">
               <value>
@@ -77,11 +77,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FB -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="clearCookies" is-config="true" duration-ms="864" started-at="2017-07-21T13:17:15Z" finished-at="2017-07-21T13:17:16Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="clearCookies" is-config="true" duration-ms="888" started-at="2017-07-21T15:41:13Z" finished-at="2017-07-21T15:41:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="closeDriverObjects" is-config="true" duration-ms="7732" started-at="2017-07-21T13:17:16Z" finished-at="2017-07-21T13:17:24Z">
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:tests.TC1_GR_FB_Account@545997b1]" name="closeDriverObjects" is-config="true" duration-ms="9516" started-at="2017-07-21T15:41:14Z" finished-at="2017-07-21T15:41:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObjects -->
