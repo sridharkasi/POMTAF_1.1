@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Test4(failed)" parallel="tests">
+    <parameter name="browser" value="CHROME"/>
+    <parameter name="Node" value=""/>
     <classes>
       <class name="tests.TC1_GR_FB_Account">
         <methods>
+          <include name="startTestCase"/>
+          <include name="closeDriverObjects"/>
+          <include name="remotewebdriver"/>
           <include name="FB"/>
           <include name="instantiateDriverObject"/>
         </methods>
       </class> <!-- tests.TC1_GR_FB_Account -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [Suite] -->

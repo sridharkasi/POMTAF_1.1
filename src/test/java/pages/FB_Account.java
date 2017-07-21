@@ -131,17 +131,17 @@ public FB_Account Enterradio(String male) throws IOException, Exception
 	
 }
 
-public FB_Account click(String male) throws IOException, Exception
+/*public FB_Account click(String male) throws IOException, Exception
 {
 	entertext(radio,  male);
 	return this;
 	
-}
+}*/
 
 public FB_Account click() throws Exception
 {
 	
-	submit(Caccount);
+	click(Caccount);
 	return this;
 	
 }

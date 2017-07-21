@@ -70,7 +70,7 @@ public class WrapperMethods {
 	public void selectvalue(WebElement Elm, String value) throws IOException, Exception {
 		
 		try{
-			new Select(Elm).selectByVisibleText(value);;
+			new Select(Elm).selectByVisibleText(value);
 			DriverFactory.test.pass("Element Selected");
 			DriverFactory.test.pass("Element Selected");
 		}
@@ -121,6 +121,7 @@ public class WrapperMethods {
 							String cellValue = "";
 							try{
 								cellValue = row.getCell(j).getStringCellValue();
+								
 							}catch(NullPointerException e){
 
 							}
