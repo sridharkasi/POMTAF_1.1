@@ -2,26 +2,26 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="812" started-at="2017-07-21T01:17:30Z" finished-at="2017-07-21T01:17:31Z">
+  <suite name="Default suite" duration-ms="812" started-at="2017-07-21T01:49:03Z" finished-at="2017-07-21T01:49:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="812" started-at="2017-07-21T01:17:30Z" finished-at="2017-07-21T01:17:31Z">
+    <test name="Default test" duration-ms="812" started-at="2017-07-21T01:49:03Z" finished-at="2017-07-21T01:49:04Z">
       <class name="tests.TC1_GR_FB_Account">
-        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:tests.TC1_GR_FB_Account@78186a70]" name="instantiateDriverObject" is-config="true" duration-ms="16" started-at="2017-07-21T06:47:30Z" finished-at="2017-07-21T06:47:30Z">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:tests.TC1_GR_FB_Account@78186a70]" name="instantiateDriverObject" is-config="true" duration-ms="0" started-at="2017-07-21T07:19:03Z" finished-at="2017-07-21T07:19:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiateDriverObject -->
-        <test-method status="FAIL" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_GR_FB_Account@78186a70]" name="remotewebdriver" is-config="true" duration-ms="0" started-at="2017-07-21T06:47:30Z" finished-at="2017-07-21T06:47:30Z">
+        <test-method status="FAIL" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_GR_FB_Account@78186a70]" name="remotewebdriver" is-config="true" duration-ms="0" started-at="2017-07-21T07:19:03Z" finished-at="2017-07-21T07:19:03Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'Node' is required by BeforeTest on method remotewebdriver but has not been marked @Optional or defined
-in C:\Users\grao24\AppData\Local\Temp\testng-eclipse-1104653884\testng-customsuite.xml]]>
+in C:\Users\grao24\AppData\Local\Temp\testng-eclipse-1943519212\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'Node' is required by BeforeTest on method remotewebdriver but has not been marked @Optional or defined
-in C:\Users\grao24\AppData\Local\Temp\testng-eclipse-1104653884\testng-customsuite.xml
+in C:\Users\grao24\AppData\Local\Temp\testng-eclipse-1943519212\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
@@ -48,11 +48,11 @@ in C:\Users\grao24\AppData\Local\Temp\testng-eclipse-1104653884\testng-customsui
           <reporter-output>
           </reporter-output>
         </test-method> <!-- remotewebdriver -->
-        <test-method status="SKIP" signature="startTestCase()[pri:0, instance:tests.TC1_GR_FB_Account@78186a70]" name="startTestCase" is-config="true" duration-ms="0" started-at="2017-07-21T06:47:30Z" finished-at="2017-07-21T06:47:30Z">
+        <test-method status="SKIP" signature="startTestCase()[pri:0, instance:tests.TC1_GR_FB_Account@78186a70]" name="startTestCase" is-config="true" duration-ms="0" started-at="2017-07-21T07:19:03Z" finished-at="2017-07-21T07:19:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method status="FAIL" signature="FB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_GR_FB_Account@78186a70]" name="FB" duration-ms="0" started-at="2017-07-21T06:47:31Z" data-provider="getData" finished-at="2017-07-21T06:47:31Z">
+        <test-method status="FAIL" signature="FB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_GR_FB_Account@78186a70]" name="FB" duration-ms="0" started-at="2017-07-21T07:19:04Z" data-provider="getData" finished-at="2017-07-21T07:19:04Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
@@ -89,7 +89,7 @@ Data Provider public java.lang.Object[][] projectFactory.DriverFactory.getData()
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FB -->
-        <test-method status="SKIP" signature="closeDriverObjects()[pri:0, instance:tests.TC1_GR_FB_Account@78186a70]" name="closeDriverObjects" is-config="true" duration-ms="0" started-at="2017-07-21T06:47:31Z" finished-at="2017-07-21T06:47:31Z">
+        <test-method status="SKIP" signature="closeDriverObjects()[pri:0, instance:tests.TC1_GR_FB_Account@78186a70]" name="closeDriverObjects" is-config="true" duration-ms="0" started-at="2017-07-21T07:19:04Z" finished-at="2017-07-21T07:19:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObjects -->

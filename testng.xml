@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel = "tests" thread-count = "2">
+<suite name="Suite" parallel = "tests" thread-count = "4">
   <test name="Test1">
  <parameter name="browser" value = "FIREFOX"> </parameter> 
 <parameter name="Node" value ="http://20.201.84.130:7777/wd/hub"> </parameter> 
@@ -21,6 +21,16 @@
    <classes>
       <class name="tests.TransAmerica"/>
     </classes>
+    
+  </test> <!-- Test -->
+  
+  <test name="Test4">
+ <parameter name="browser" value =""> </parameter> 
+<parameter name="Node" value =""> </parameter> 
+   <classes>
+      <class name="tests.TC1_GR_FB_Account"/>
+    </classes>
+    
   </test> <!-- Test -->
   
  
