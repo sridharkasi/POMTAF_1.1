@@ -24,7 +24,7 @@ public class TC1_GR_FB_Account extends DriverFactory {
 	
 	@BeforeTest
 	@Parameters({"browser","Node"})
-	  public void remotewebdriver(@Optional String browserval, String nodeval){
+	  public void remotewebdriver(@Optional String browserval, @Optional String nodeval){
 		browser = browserval;
 		nodeip = nodeval;	  
 		   

@@ -34,6 +34,13 @@ public class WebDriverThread {
             selectedDriverType = determineEffectiveDriverType(DriverFactory.browser);
             DesiredCapabilities desiredCapabilities = selectedDriverType.getDesiredCapabilities();
             instantiateWebDriver(desiredCapabilities);
+       }
+        else if( !selectedDriverType.equals(determineEffectiveDriverType(DriverFactory.browser)))
+        {
+        	selectedDriverType = determineEffectiveDriverType(DriverFactory.browser);
+            DesiredCapabilities desiredCapabilities = selectedDriverType.getDesiredCapabilities();
+            instantiateWebDriver(desiredCapabilities);
+            //System.out.println();
         }
 
         return webdriver;

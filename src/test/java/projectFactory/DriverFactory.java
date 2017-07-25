@@ -84,14 +84,16 @@ public class DriverFactory {
     @AfterMethod
     public static void clearCookies() throws Exception {
         getDriver().manage().deleteAllCookies();
+       
+        
     }
 
     @AfterSuite
     public static void closeDriverObjects() {
     	 extn.flush();
-        for (WebDriverThread webDriverThread : webDriverThreadPool) {
+     /*   for (WebDriverThread webDriverThread : webDriverThreadPool) {
             webDriverThread.quitDriver();
-        }
+        }*/
        
     }
 }
