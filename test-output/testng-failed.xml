@@ -1,64 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
-  <test name="Test4(failed)" parallel="classes">
-    <parameter name="browser" value="CHROME"/>
-    <parameter name="Node" value=" "/>
-    <classes>
-      <class name="tests.TC5_GR_FB_Account2">
-        <methods>
-          <include name="remotewebdriver"/>
-          <include name="remotewebdriver"/>
-          <include name="startTestCase"/>
-          <include name="startTestCase"/>
-          <include name="clearCookies"/>
-          <include name="FB" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.TC5_GR_FB_Account2 -->
-      <class name="tests.TC6_GR_FB_Account2">
-        <methods>
-          <include name="startTestCase"/>
-          <include name="startTestCase"/>
-          <include name="clearCookies"/>
-          <include name="FB" invocation-numbers="0"/>
-          <include name="remotewebdriver"/>
-          <include name="remotewebdriver"/>
-        </methods>
-      </class> <!-- tests.TC6_GR_FB_Account2 -->
-      <class name="tests.TC1_GR_FB_Account">
-        <methods>
-          <include name="startTestCase"/>
-          <include name="startTestCase"/>
-          <include name="remotewebdriver"/>
-          <include name="remotewebdriver"/>
-          <include name="FB" invocation-numbers="0"/>
-          <include name="instantiateDriverObject"/>
-        </methods>
-      </class> <!-- tests.TC1_GR_FB_Account -->
-    </classes>
-  </test> <!-- Test4(failed) -->
-  <test name="Test5(failed)" parallel="classes">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test5(failed)" parallel="methods">
     <parameter name="browser" value="FIREFOX"/>
-    <parameter name="Node" value=" "/>
+    <parameter name="Node" value=""/>
     <classes>
-      <class name="tests.TC5_GR_FB_Account2">
-        <methods>
-          <include name="remotewebdriver"/>
-          <include name="remotewebdriver"/>
-          <include name="startTestCase"/>
-          <include name="startTestCase"/>
-          <include name="clearCookies"/>
-          <include name="FB" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- tests.TC5_GR_FB_Account2 -->
       <class name="tests.TC6_GR_FB_Account2">
         <methods>
+          <include name="closeDriverObjects"/>
           <include name="startTestCase"/>
           <include name="startTestCase"/>
+          <include name="clearCookies"/>
           <include name="clearCookies"/>
           <include name="FB" invocation-numbers="0"/>
           <include name="remotewebdriver"/>
           <include name="remotewebdriver"/>
+          <include name="instantiateDriverObject"/>
         </methods>
       </class> <!-- tests.TC6_GR_FB_Account2 -->
       <class name="tests.TC1_GR_FB_Account">
@@ -67,10 +24,20 @@
           <include name="startTestCase"/>
           <include name="remotewebdriver"/>
           <include name="remotewebdriver"/>
-          <include name="FB" invocation-numbers="0"/>
-          <include name="instantiateDriverObject"/>
+          <include name="clearCookies"/>
+          <include name="clearCookies"/>
         </methods>
       </class> <!-- tests.TC1_GR_FB_Account -->
+      <class name="tests.TC1_Google_SignUp">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="startTestCase"/>
+          <include name="remotewebdriver"/>
+          <include name="remotewebdriver"/>
+          <include name="clearCookies"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- tests.TC1_Google_SignUp -->
     </classes>
   </test> <!-- Test5(failed) -->
 </suite> <!-- Failed suite [Suite] -->
