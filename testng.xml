@@ -7,7 +7,7 @@
    
   <test name="Test4">
  <parameter name="browser" value ="CHROME"> </parameter> 
-<parameter name="Node" value ="http://20.201.75.57:5555/wd/hub"> </parameter> 
+<parameter name="Node" value ="http://20.201.67.129:5555/wd/hub"> </parameter> 
    <classes>
        
       <class name="tests.TC1_GR_FB_Account"/>
