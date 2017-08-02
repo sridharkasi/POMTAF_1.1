@@ -17,6 +17,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
 public class WrapperMethods {
@@ -54,7 +55,21 @@ public class WrapperMethods {
 			DriverFactory.test.fail(e + " "+ DriverFactory.test.addScreenCaptureFromPath(filepath));
 			}
 	}
-		
+	
+	public void mousehover(WebElement ELM) throws Exception{
+		try{
+            Actions action = new Actions(DriverFactory.getDriver());
+            action.moveToElement(ELM).build().perform(); 
+            action.click(ELM);
+            action.perform();
+        }
+            catch (Exception e)
+            {	
+            filepath = Screencapture(DriverFactory.getDriver());
+			
+			DriverFactory.test.fail(e + " "+ DriverFactory.test.addScreenCaptureFromPath(filepath));
+		}}
+     		
 	public void click(WebElement Elm) throws IOException, Exception {
 		try{
 		Elm.click();

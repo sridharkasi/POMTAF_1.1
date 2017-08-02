@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="5" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="13599" started-at="2017-07-25T02:51:04Z" finished-at="2017-07-25T02:51:17Z">
+  <suite name="Suite" duration-ms="16179" started-at="2017-08-02T13:00:00Z" finished-at="2017-08-02T13:00:16Z">
     <groups>
     </groups>
-    <test name="Test5" duration-ms="10336" started-at="2017-07-25T02:51:04Z" finished-at="2017-07-25T02:51:14Z">
-      <class name="tests.TC6_GR_FB_Account2">
-        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:tests.TC6_GR_FB_Account2@281e3708]" name="instantiateDriverObject" is-config="true" duration-ms="12" started-at="2017-07-25T08:21:04Z" finished-at="2017-07-25T08:21:04Z">
+    <test name="Test1" duration-ms="16179" started-at="2017-08-02T13:00:00Z" finished-at="2017-08-02T13:00:16Z">
+      <class name="tests.TAVMouseTest">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:tests.TAVMouseTest@481a15ff]" name="instantiateDriverObject" is-config="true" duration-ms="8" started-at="2017-08-02T18:30:00Z" finished-at="2017-08-02T18:30:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiateDriverObject -->
-        <test-method status="PASS" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.TC6_GR_FB_Account2@281e3708]" name="remotewebdriver" is-config="true" duration-ms="5" started-at="2017-07-25T08:21:04Z" finished-at="2017-07-25T08:21:04Z">
+        <test-method status="PASS" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.TAVMouseTest@481a15ff]" name="remotewebdriver" is-config="true" duration-ms="2" started-at="2017-08-02T18:30:00Z" finished-at="2017-08-02T18:30:00Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[FIREFOX]]>
+                <![CDATA[CHROME]]>
               </value>
             </param>
             <param index="1">
@@ -27,211 +27,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- remotewebdriver -->
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC6_GR_FB_Account2@281e3708]" name="startTestCase" is-config="true" duration-ms="4" started-at="2017-07-25T08:21:04Z" finished-at="2017-07-25T08:21:04Z">
+        <test-method status="PASS" signature="AboutUs()[pri:0, instance:tests.TAVMouseTest@481a15ff]" name="AboutUs" duration-ms="15896" started-at="2017-08-02T18:30:00Z" finished-at="2017-08-02T18:30:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startTestCase -->
-        <test-method status="PASS" signature="FB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC6_GR_FB_Account2@281e3708]" name="FB" duration-ms="8861" started-at="2017-07-25T08:21:04Z" data-provider="getData" finished-at="2017-07-25T08:21:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aabb]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[as]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[a.b@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[a123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[10']]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Jul]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[2010']]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Male]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FB -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:tests.TC6_GR_FB_Account2@281e3708]" name="clearCookies" is-config="true" duration-ms="672" started-at="2017-07-25T08:21:13Z" finished-at="2017-07-25T08:21:14Z">
+        </test-method> <!-- AboutUs -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:tests.TAVMouseTest@481a15ff]" name="clearCookies" is-config="true" duration-ms="261" started-at="2017-08-02T18:30:16Z" finished-at="2017-08-02T18:30:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:tests.TC6_GR_FB_Account2@281e3708]" name="closeDriverObjects" is-config="true" duration-ms="329" started-at="2017-07-25T08:21:17Z" finished-at="2017-07-25T08:21:17Z">
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:tests.TAVMouseTest@481a15ff]" name="closeDriverObjects" is-config="true" duration-ms="283" started-at="2017-08-02T18:30:16Z" finished-at="2017-08-02T18:30:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObjects -->
-      </class> <!-- tests.TC6_GR_FB_Account2 -->
-    </test> <!-- Test5 -->
-    <test name="Test4" duration-ms="13599" started-at="2017-07-25T02:51:04Z" finished-at="2017-07-25T02:51:17Z">
-      <class name="tests.TC5_GR_FB_Account2">
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC5_GR_FB_Account2@4c762604]" name="startTestCase" is-config="true" duration-ms="1" started-at="2017-07-25T08:21:14Z" finished-at="2017-07-25T08:21:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTestCase -->
-        <test-method status="PASS" signature="FB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC5_GR_FB_Account2@4c762604]" name="FB" duration-ms="2520" started-at="2017-07-25T08:21:14Z" data-provider="getData" finished-at="2017-07-25T08:21:16Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aabb]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[as]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[a.b@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[a123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[10']]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Jul]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[2010']]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Male]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FB -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:tests.TC5_GR_FB_Account2@4c762604]" name="clearCookies" is-config="true" duration-ms="681" started-at="2017-07-25T08:21:16Z" finished-at="2017-07-25T08:21:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearCookies -->
-      </class> <!-- tests.TC5_GR_FB_Account2 -->
-      <class name="tests.TC1_GR_FB_Account">
-        <test-method status="PASS" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_GR_FB_Account@548ad73b]" name="remotewebdriver" is-config="true" duration-ms="4" started-at="2017-07-25T08:21:04Z" finished-at="2017-07-25T08:21:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- remotewebdriver -->
-        <test-method status="PASS" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.TC5_GR_FB_Account2@4c762604]" name="remotewebdriver" is-config="true" duration-ms="0" started-at="2017-07-25T08:21:04Z" finished-at="2017-07-25T08:21:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[CHROME]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- remotewebdriver -->
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC1_GR_FB_Account@548ad73b]" name="startTestCase" is-config="true" duration-ms="4" started-at="2017-07-25T08:21:04Z" finished-at="2017-07-25T08:21:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startTestCase -->
-        <test-method status="PASS" signature="FB(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC1_GR_FB_Account@548ad73b]" name="FB" duration-ms="8878" started-at="2017-07-25T08:21:04Z" data-provider="getData" finished-at="2017-07-25T08:21:13Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aabb]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[as]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[a.b@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[a123]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[10']]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Jul]]>
-              </value>
-            </param>
-            <param index="6">
-              <value>
-                <![CDATA[2010']]>
-              </value>
-            </param>
-            <param index="7">
-              <value>
-                <![CDATA[Male]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FB -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:tests.TC1_GR_FB_Account@548ad73b]" name="clearCookies" is-config="true" duration-ms="615" started-at="2017-07-25T08:21:13Z" finished-at="2017-07-25T08:21:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clearCookies -->
-      </class> <!-- tests.TC1_GR_FB_Account -->
-    </test> <!-- Test4 -->
+      </class> <!-- tests.TAVMouseTest -->
+    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>
