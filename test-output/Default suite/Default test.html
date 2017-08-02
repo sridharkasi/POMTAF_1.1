@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jul 21 11:59:29 IST 2017</td>
+<td>Started on:</td><td>Wed Aug 02 15:27:53 IST 2017</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (827 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (32 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,10 +75,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.TC1_Google_SignUp.remotewebdriver()'><b>remotewebdriver</b><br>Test class: tests.TC1_Google_SignUp</td>
+<td title='tests.GR_Hover_Test.remotewebdriver()'><b>remotewebdriver</b><br>Test class: tests.GR_Hover_Test</td>
 <td><div><pre>org.testng.TestNGException: 
 Parameter &apos;Node&apos; is required by BeforeTest on method remotewebdriver but has not been marked @Optional or defined
-in C:\Users\grao24\AppData\Local\Temp\testng-eclipse--935626703\testng-customsuite.xml
+in C:\Users\grao24\AppData\Local\Temp\testng-eclipse--155917239\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
@@ -99,10 +99,10 @@ in C:\Users\grao24\AppData\Local\Temp\testng-eclipse--935626703\testng-customsui
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1392906938", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1392906938'><pre>org.testng.TestNGException: 
+</pre></div><a href='#' onClick='toggleBox("stack-trace392781299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace392781299'><pre>org.testng.TestNGException: 
 Parameter &apos;Node&apos; is required by BeforeTest on method remotewebdriver but has not been marked @Optional or defined
-in C:\Users\grao24\AppData\Local\Temp\testng-eclipse--935626703\testng-customsuite.xml
+in C:\Users\grao24\AppData\Local\Temp\testng-eclipse--155917239\testng-customsuite.xml
 	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
 	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
 	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
@@ -127,19 +127,6 @@ in C:\Users\grao24\AppData\Local\Temp\testng-eclipse--935626703\testng-customsui
 <td>0</td>
 <td>null</td></tr>
 </table><p>
-<table width='100%' border='1' class='invocation-skipped'>
-<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='tests.TC1_Google_SignUp.startTestCase()'><b>startTestCase</b><br>Test class: tests.TC1_Google_SignUp</td>
-<td></td>
-<td>0</td>
-<td>tests.TC1_Google_SignUp@78186a70</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -148,11 +135,14 @@ in C:\Users\grao24\AppData\Local\Temp\testng-eclipse--935626703\testng-customsui
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='tests.TC1_Google_SignUp.google_signup()'><b>google_signup</b><br>Test class: tests.TC1_Google_SignUp</td>
+<td title='tests.GR_Hover_Test.namesearch()'><b>namesearch</b><br>Test class: tests.GR_Hover_Test</td>
 <td><div><pre>org.testng.TestNGException: 
-Data Provider public java.lang.Object[][] projectFactory.DriverFactory.getData() must return either Object[][] or Iterator&lt;Object&gt;[], not class [[Ljava.lang.Object;
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
+Cannot inject @Test annotated Method [namesearch] with [interface org.openqa.selenium.WebElement].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:244)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:172)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:458)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:568)
 	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
 	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
@@ -173,11 +163,14 @@ Data Provider public java.lang.Object[][] projectFactory.DriverFactory.getData()
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1707582034", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1707582034'><pre>org.testng.TestNGException: 
-Data Provider public java.lang.Object[][] projectFactory.DriverFactory.getData() must return either Object[][] or Iterator&lt;Object&gt;[], not class [[Ljava.lang.Object;
-	at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:133)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:509)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1237598030", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1237598030'><pre>org.testng.TestNGException: 
+Cannot inject @Test annotated Method [namesearch] with [interface org.openqa.selenium.WebElement].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:244)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:172)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:458)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:568)
 	at org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
 	at org.testng.internal.Invoker.createParameters(Invoker.java:1020)
 	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
@@ -200,7 +193,7 @@ Data Provider public java.lang.Object[][] projectFactory.DriverFactory.getData()
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 </pre></div></td>
 <td>0</td>
-<td>tests.TC1_Google_SignUp@78186a70</td></tr>
+<td>tests.GR_Hover_Test@5c072e3f</td></tr>
 </table><p>
 </body>
 </html>

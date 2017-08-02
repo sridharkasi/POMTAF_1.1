@@ -17,13 +17,14 @@ public class GooglePage extends WrapperMethods{
 	@FindBy(name="q")
 	private WebElement searchtext;
 	
+	
 
 	public  GooglePage() throws Exception{
 		PageFactory.initElements(DriverFactory.getDriver(), this);
 		
 	}
 	
-	public GooglePage EnterSearch(String searchvalue) throws IOException, Exception
+	public GooglePage entertext(String searchvalue) throws IOException, Exception
 	{
 		entertext(searchtext,  searchvalue);
 		return this;

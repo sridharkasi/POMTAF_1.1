@@ -42,7 +42,9 @@ public class TC6_GR_FB_Account2 extends DriverFactory {
 
 		DriverFactory.createreprot("TC1_GR_FB_Account");
 		driver = DriverFactory.getDriver();
+		//Thread.sleep(50000);
 		driver.get("https://www.facebook.com");
+		
 		 new FB_Account()
 		 .Enterfirstname(Firstname)
 		 .Enterlasttname(Lastname)

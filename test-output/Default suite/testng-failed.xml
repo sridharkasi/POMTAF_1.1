@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="tests.TC1_Google_SignUp">
+      <class name="tests.GR_Hover_Test">
         <methods>
-          <include name="google_signup"/>
+          <include name="namesearch"/>
           <include name="instantiateDriverObject"/>
         </methods>
-      </class> <!-- tests.TC1_Google_SignUp -->
+      </class> <!-- tests.GR_Hover_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

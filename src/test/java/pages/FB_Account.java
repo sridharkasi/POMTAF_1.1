@@ -142,6 +142,7 @@ public FB_Account click() throws Exception
 {
 	
 	click(Caccount);
+	
 	return this;
 	
 }
