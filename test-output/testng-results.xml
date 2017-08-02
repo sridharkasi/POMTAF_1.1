@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="64156" started-at="2017-08-02T12:34:39Z" finished-at="2017-08-02T12:35:43Z">
+  <suite name="Suite" duration-ms="65225" started-at="2017-08-02T12:54:47Z" finished-at="2017-08-02T12:55:52Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="64156" started-at="2017-08-02T12:34:39Z" finished-at="2017-08-02T12:35:43Z">
+    <test name="Test1" duration-ms="65225" started-at="2017-08-02T12:54:47Z" finished-at="2017-08-02T12:55:52Z">
       <class name="tests.GR_Hover_Test">
-        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:tests.GR_Hover_Test@67b467e9]" name="instantiateDriverObject" is-config="true" duration-ms="31" started-at="2017-08-02T18:04:39Z" finished-at="2017-08-02T18:04:39Z">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:tests.GR_Hover_Test@67b467e9]" name="instantiateDriverObject" is-config="true" duration-ms="31" started-at="2017-08-02T18:24:47Z" finished-at="2017-08-02T18:24:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiateDriverObject -->
-        <test-method status="PASS" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.GR_Hover_Test@67b467e9]" name="remotewebdriver" is-config="true" duration-ms="47" started-at="2017-08-02T18:04:39Z" finished-at="2017-08-02T18:04:39Z">
+        <test-method status="PASS" signature="remotewebdriver(java.lang.String, java.lang.String)[pri:0, instance:tests.GR_Hover_Test@67b467e9]" name="remotewebdriver" is-config="true" duration-ms="15" started-at="2017-08-02T18:24:47Z" finished-at="2017-08-02T18:24:47Z">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- remotewebdriver -->
-        <test-method status="PASS" signature="hover()[pri:0, instance:tests.GR_Hover_Test@67b467e9]" name="hover" duration-ms="59854" started-at="2017-08-02T18:04:39Z" finished-at="2017-08-02T18:05:39Z">
+        <test-method status="PASS" signature="hover()[pri:0, instance:tests.GR_Hover_Test@67b467e9]" name="hover" duration-ms="60269" started-at="2017-08-02T18:24:47Z" finished-at="2017-08-02T18:25:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hover -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:tests.GR_Hover_Test@67b467e9]" name="clearCookies" is-config="true" duration-ms="4184" started-at="2017-08-02T18:05:39Z" finished-at="2017-08-02T18:05:43Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:tests.GR_Hover_Test@67b467e9]" name="clearCookies" is-config="true" duration-ms="4922" started-at="2017-08-02T18:25:47Z" finished-at="2017-08-02T18:25:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:tests.GR_Hover_Test@67b467e9]" name="closeDriverObjects" is-config="true" duration-ms="440" started-at="2017-08-02T18:05:44Z" finished-at="2017-08-02T18:05:44Z">
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:tests.GR_Hover_Test@67b467e9]" name="closeDriverObjects" is-config="true" duration-ms="515" started-at="2017-08-02T18:25:52Z" finished-at="2017-08-02T18:25:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObjects -->
