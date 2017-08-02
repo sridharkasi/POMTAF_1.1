@@ -17,10 +17,10 @@
    
   <test name="Test1">
  <parameter name="browser" value ="CHROME"> </parameter> 
-<parameter name="Node" value ="http://20.201.67.129:5555/wd/hub"> </parameter> 
+<parameter name="Node" value =""> </parameter> 
    <classes>
 <<<<<<< HEAD
-       <class name="tests.TAVMouseTest"/>
+       <class name="Balamouse"/>
    </classes>
     </test>
 =======

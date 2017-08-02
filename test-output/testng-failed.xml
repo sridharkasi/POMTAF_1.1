@@ -1,76 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<<<<<<< HEAD
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test1(failed)">
+  <test name="Test(failed)">
     <parameter name="browser" value="CHROME"/>
     <parameter name="Node" value=""/>
     <classes>
-      <class name="tests.GR_Hover_Test">
+      <class name="tests.Balamouse">
         <methods>
           <include name="closeDriverObjects"/>
-          <include name="remotewebdriver"/>
+          <include name="clearCookies"/>
           <include name="hover"/>
           <include name="instantiateDriverObject"/>
+          <include name="remotewebdriver"/>
         </methods>
-      </class> <!-- tests.GR_Hover_Test -->
-=======
-<<<<<<< HEAD
-<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
-  <test name="Test1(failed)" parallel="methods">
-    <parameter name="browser" value="CHROME"/>
-    <parameter name="Node" value=""/>
-    <classes>
-      <class name="tests.TAVMouseTest">
-        <methods>
-          <include name="closeDriverObjects"/>
-          <include name="remotewebdriver"/>
-          <include name="clearCookies"/>
-          <include name="AboutUs"/>
-          <include name="instantiateDriverObject"/>
-        </methods>
-      </class> <!-- tests.TAVMouseTest -->
-=======
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
-  <test name="Test5(failed)" parallel="methods">
-    <parameter name="browser" value="FIREFOX"/>
-    <parameter name="Node" value=""/>
-    <classes>
-      <class name="tests.TC6_GR_FB_Account2">
-        <methods>
-          <include name="closeDriverObjects"/>
-          <include name="startTestCase"/>
-          <include name="startTestCase"/>
-          <include name="clearCookies"/>
-          <include name="clearCookies"/>
-          <include name="FB" invocation-numbers="0"/>
-          <include name="remotewebdriver"/>
-          <include name="remotewebdriver"/>
-          <include name="instantiateDriverObject"/>
-        </methods>
-      </class> <!-- tests.TC6_GR_FB_Account2 -->
-      <class name="tests.TC1_GR_FB_Account">
-        <methods>
-          <include name="startTestCase"/>
-          <include name="startTestCase"/>
-          <include name="remotewebdriver"/>
-          <include name="remotewebdriver"/>
-          <include name="clearCookies"/>
-          <include name="clearCookies"/>
-        </methods>
-      </class> <!-- tests.TC1_GR_FB_Account -->
-      <class name="tests.TC1_Google_SignUp">
-        <methods>
-          <include name="startTestCase"/>
-          <include name="startTestCase"/>
-          <include name="remotewebdriver"/>
-          <include name="remotewebdriver"/>
-          <include name="clearCookies"/>
-          <include name="clearCookies"/>
-        </methods>
-      </class> <!-- tests.TC1_Google_SignUp -->
->>>>>>> 79e71242a5859b1f8b11f6b9a628d7f429434396
->>>>>>> d678d1e1e7b3ce328a745d8a34d6ebfe2d6a5b17
+      </class> <!-- tests.Balamouse -->
     </classes>
-  </test> <!-- Test1(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

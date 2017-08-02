@@ -40,7 +40,7 @@ public class TC1_Google_Searchname extends DriverFactory{
 		driver = DriverFactory.getDriver();
 		driver.get("https://www.google.com");
 		 new GooglePage()
-		 .EnterSearch(SearchString)
+		 .entertext(SearchString)
 		 .clicksearch();
 		
 		 new GoogleResultsPage()
