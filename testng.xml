@@ -1,10 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Suite">
     
     <!--  parallel = "methods" thread-count = "1"> -->
 
    
+=======
+<<<<<<< HEAD
+<suite name="Suite" parallel = "methods" thread-count = "1">
+=======
+<suite name="Suite" parallel = "methods" thread-count = "2">
+>>>>>>> 79e71242a5859b1f8b11f6b9a628d7f429434396
+    
+    <!--  parallel = "methods" thread-count = "2"> -->
+   
+  <test name="Test1">
+ <parameter name="browser" value ="CHROME"> </parameter> 
+<parameter name="Node" value ="http://20.201.67.129:5555/wd/hub"> </parameter> 
+   <classes>
+<<<<<<< HEAD
+       <class name="tests.TAVMouseTest"/>
+   </classes>
+    </test>
+=======
+       
+      <class name="tests.TC1_GR_FB_Account"/>
+       <class name="tests.TC6_GR_FB_Account2"/>
+       <class name="tests.TC1_Google_SignUp"/>
+>>>>>>> d678d1e1e7b3ce328a745d8a34d6ebfe2d6a5b17
      
     
     
@@ -14,7 +38,15 @@
 <parameter name="Node" value =""> </parameter> 
    <classes>
        
+<<<<<<< HEAD
       <class name="tests.GR_Hover_Test"/>
+=======
+      <class name="tests.TC6_GR_FB_Account2"/>
+      <class name="tests.TC1_GR_FB_Account"/>
+      <class name="tests.TC1_Google_SignUp"/>
+      
+      
+>>>>>>> d678d1e1e7b3ce328a745d8a34d6ebfe2d6a5b17
       
      
     
@@ -23,5 +55,7 @@
   </test> <!-- Test -->
  
   
+>>>>>>> 79e71242a5859b1f8b11f6b9a628d7f429434396
  
+     
 </suite> <!-- Suite -->
