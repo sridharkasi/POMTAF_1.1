@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
   <test name="Test1(failed)" parallel="methods">
     <parameter name="browser" value="CHROME"/>
@@ -14,6 +15,46 @@
           <include name="instantiateDriverObject"/>
         </methods>
       </class> <!-- tests.TAVMouseTest -->
+=======
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test5(failed)" parallel="methods">
+    <parameter name="browser" value="FIREFOX"/>
+    <parameter name="Node" value=""/>
+    <classes>
+      <class name="tests.TC6_GR_FB_Account2">
+        <methods>
+          <include name="closeDriverObjects"/>
+          <include name="startTestCase"/>
+          <include name="startTestCase"/>
+          <include name="clearCookies"/>
+          <include name="clearCookies"/>
+          <include name="FB" invocation-numbers="0"/>
+          <include name="remotewebdriver"/>
+          <include name="remotewebdriver"/>
+          <include name="instantiateDriverObject"/>
+        </methods>
+      </class> <!-- tests.TC6_GR_FB_Account2 -->
+      <class name="tests.TC1_GR_FB_Account">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="startTestCase"/>
+          <include name="remotewebdriver"/>
+          <include name="remotewebdriver"/>
+          <include name="clearCookies"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- tests.TC1_GR_FB_Account -->
+      <class name="tests.TC1_Google_SignUp">
+        <methods>
+          <include name="startTestCase"/>
+          <include name="startTestCase"/>
+          <include name="remotewebdriver"/>
+          <include name="remotewebdriver"/>
+          <include name="clearCookies"/>
+          <include name="clearCookies"/>
+        </methods>
+      </class> <!-- tests.TC1_Google_SignUp -->
+>>>>>>> 79e71242a5859b1f8b11f6b9a628d7f429434396
     </classes>
   </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
