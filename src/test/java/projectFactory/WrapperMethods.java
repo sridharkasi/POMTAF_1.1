@@ -13,6 +13,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -56,11 +57,11 @@ public class WrapperMethods {
 			}
 	}
 	
-	public void mousehover(WebElement ELM) throws Exception{
+	public void mousehover(WebElement Elm) throws Exception{
 		try{
             Actions action = new Actions(DriverFactory.getDriver());
-            action.moveToElement(ELM).build().perform(); 
-            action.click(ELM);
+            action.moveToElement(Elm).build().perform(); 
+            action.click(Elm);
             action.perform();
         }
             catch (Exception e)
@@ -70,6 +71,19 @@ public class WrapperMethods {
 			DriverFactory.test.fail(e + " "+ DriverFactory.test.addScreenCaptureFromPath(filepath));
 		}}
      		
+	public void jsexecutor(WebElement Elm) throws Exception{
+		try{
+			JavascriptExecutor js = (JavascriptExecutor) DriverFactory.getDriver();
+			js.executeScript("window.scrollBy(0,1700)");
+	        //js.executeScript("document.getElementById('Elm').click();");
+        }
+            catch (Exception e)
+            {	
+            filepath = Screencapture(DriverFactory.getDriver());
+			
+			DriverFactory.test.fail(e + " "+ DriverFactory.test.addScreenCaptureFromPath(filepath));
+		}}
+	
 	public void click(WebElement Elm) throws IOException, Exception {
 		try{
 		Elm.click();
