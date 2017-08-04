@@ -5,15 +5,14 @@
     <parameter name="browser" value="CHROME"/>
     <parameter name="Node" value=""/>
     <classes>
-      <class name="tests.Balamouse">
+      <class name="tests.GR_JSE_TC1">
         <methods>
-          <include name="closeDriverObjects"/>
-          <include name="clearCookies"/>
-          <include name="hover"/>
-          <include name="instantiateDriverObject"/>
+          <include name="scroll"/>
           <include name="remotewebdriver"/>
+          <include name="clearCookies"/>
+          <include name="instantiateDriverObject"/>
         </methods>
-      </class> <!-- tests.Balamouse -->
+      </class> <!-- tests.GR_JSE_TC1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
