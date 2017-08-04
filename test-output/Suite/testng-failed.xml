@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test1(failed)" parallel="methods">
     <parameter name="browser" value="CHROME"/>
     <parameter name="Node" value=""/>
     <classes>
+<<<<<<< HEAD
       <class name="tests.GR_JSE_TC1">
         <methods>
           <include name="scroll"/>
@@ -13,6 +14,17 @@
           <include name="instantiateDriverObject"/>
         </methods>
       </class> <!-- tests.GR_JSE_TC1 -->
+=======
+      <class name="tests.TAIJSTest">
+        <methods>
+          <include name="closeDriverObjects"/>
+          <include name="remotewebdriver"/>
+          <include name="clearCookies"/>
+          <include name="Ins"/>
+          <include name="instantiateDriverObject"/>
+        </methods>
+      </class> <!-- tests.TAIJSTest -->
+>>>>>>> 047b81fc46f315d9ad9fae6590a1326479d30b3a
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->

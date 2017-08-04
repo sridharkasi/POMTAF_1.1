@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite name="Suite">
   <test name="Test">
    <parameter name="browser" value ="CHROME"> </parameter> 
@@ -9,3 +10,14 @@
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
+=======
+<suite name="Suite" parallel = "methods" thread-count = "1">
+  <test name="Test1">
+ <parameter name="browser" value ="CHROME"> </parameter> 
+<parameter name="Node" value =""> </parameter> 
+   <classes>
+              <class name="tests.TAIJSTest"/>
+   </classes>
+    </test>
+   </suite> <!-- Suite -->
+>>>>>>> 047b81fc46f315d9ad9fae6590a1326479d30b3a
