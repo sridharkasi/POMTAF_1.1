@@ -5,7 +5,7 @@
    <parameter name="browser" value ="CHROME"> </parameter> 
 <parameter name="Node" value =""> </parameter> 
     <classes>
-      <class name="tests.Balamouse"/>
+      <class name="tests.GR_Hover_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
